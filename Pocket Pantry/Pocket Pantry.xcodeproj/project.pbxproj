@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820E0FFC28F5B29300BA6B8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E0FFB28F5B29300BA6B8F /* AppDelegate.swift */; };
+		820E0FFE28F5B29300BA6B8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E0FFD28F5B29300BA6B8F /* SceneDelegate.swift */; };
+		820E100028F5B29300BA6B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E0FFF28F5B29300BA6B8F /* ViewController.swift */; };
+		820E100328F5B29300BA6B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820E100128F5B29300BA6B8F /* Main.storyboard */; };
+		820E100528F5B29A00BA6B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820E100428F5B29A00BA6B8F /* Assets.xcassets */; };
+		820E100828F5B29B00BA6B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820E100628F5B29B00BA6B8F /* LaunchScreen.storyboard */; };
+		820E101328F5B29B00BA6B8F /* Pocket_PantryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101228F5B29B00BA6B8F /* Pocket_PantryTests.swift */; };
+		820E101D28F5B29B00BA6B8F /* Pocket_PantryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */; };
+		820E101F28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820E100F28F5B29B00BA6B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820E0FF028F5B29300BA6B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820E0FF728F5B29300BA6B8F;
+			remoteInfo = "Pocket Pantry";
+		};
+		820E101928F5B29B00BA6B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820E0FF028F5B29300BA6B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820E0FF728F5B29300BA6B8F;
+			remoteInfo = "Pocket Pantry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		820E0FF828F5B29300BA6B8F /* Pocket Pantry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Pantry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820E0FFB28F5B29300BA6B8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		820E0FFD28F5B29300BA6B8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		820E0FFF28F5B29300BA6B8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		820E100228F5B29300BA6B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820E100428F5B29A00BA6B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		820E100728F5B29B00BA6B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820E100928F5B29B00BA6B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820E100E28F5B29B00BA6B8F /* Pocket PantryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket PantryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820E101228F5B29B00BA6B8F /* Pocket_PantryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryTests.swift; sourceTree = "<group>"; };
+		820E101828F5B29B00BA6B8F /* Pocket PantryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket PantryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITests.swift; sourceTree = "<group>"; };
+		820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820E0FF528F5B29300BA6B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E100B28F5B29B00BA6B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E101528F5B29B00BA6B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820E0FEF28F5B29300BA6B8F = {
+			isa = PBXGroup;
+			children = (
+				820E0FFA28F5B29300BA6B8F /* Pocket Pantry */,
+				820E101128F5B29B00BA6B8F /* Pocket PantryTests */,
+				820E101B28F5B29B00BA6B8F /* Pocket PantryUITests */,
+				820E0FF928F5B29300BA6B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820E0FF928F5B29300BA6B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820E0FF828F5B29300BA6B8F /* Pocket Pantry.app */,
+				820E100E28F5B29B00BA6B8F /* Pocket PantryTests.xctest */,
+				820E101828F5B29B00BA6B8F /* Pocket PantryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820E0FFA28F5B29300BA6B8F /* Pocket Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				820E0FFB28F5B29300BA6B8F /* AppDelegate.swift */,
+				820E0FFD28F5B29300BA6B8F /* SceneDelegate.swift */,
+				820E0FFF28F5B29300BA6B8F /* ViewController.swift */,
+				820E100128F5B29300BA6B8F /* Main.storyboard */,
+				820E100428F5B29A00BA6B8F /* Assets.xcassets */,
+				820E100628F5B29B00BA6B8F /* LaunchScreen.storyboard */,
+				820E100928F5B29B00BA6B8F /* Info.plist */,
+			);
+			path = "Pocket Pantry";
+			sourceTree = "<group>";
+		};
+		820E101128F5B29B00BA6B8F /* Pocket PantryTests */ = {
+			isa = PBXGroup;
+			children = (
+				820E101228F5B29B00BA6B8F /* Pocket_PantryTests.swift */,
+			);
+			path = "Pocket PantryTests";
+			sourceTree = "<group>";
+		};
+		820E101B28F5B29B00BA6B8F /* Pocket PantryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */,
+				820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */,
+			);
+			path = "Pocket PantryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820E0FF728F5B29300BA6B8F /* Pocket Pantry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820E102228F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket Pantry" */;
+			buildPhases = (
+				820E0FF428F5B29300BA6B8F /* Sources */,
+				820E0FF528F5B29300BA6B8F /* Frameworks */,
+				820E0FF628F5B29300BA6B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Pantry";
+			productName = "Pocket Pantry";
+			productReference = 820E0FF828F5B29300BA6B8F /* Pocket Pantry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820E100D28F5B29B00BA6B8F /* Pocket PantryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820E102528F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket PantryTests" */;
+			buildPhases = (
+				820E100A28F5B29B00BA6B8F /* Sources */,
+				820E100B28F5B29B00BA6B8F /* Frameworks */,
+				820E100C28F5B29B00BA6B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820E101028F5B29B00BA6B8F /* PBXTargetDependency */,
+			);
+			name = "Pocket PantryTests";
+			productName = "Pocket PantryTests";
+			productReference = 820E100E28F5B29B00BA6B8F /* Pocket PantryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		820E101728F5B29B00BA6B8F /* Pocket PantryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820E102828F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket PantryUITests" */;
+			buildPhases = (
+				820E101428F5B29B00BA6B8F /* Sources */,
+				820E101528F5B29B00BA6B8F /* Frameworks */,
+				820E101628F5B29B00BA6B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820E101A28F5B29B00BA6B8F /* PBXTargetDependency */,
+			);
+			name = "Pocket PantryUITests";
+			productName = "Pocket PantryUITests";
+			productReference = 820E101828F5B29B00BA6B8F /* Pocket PantryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820E0FF028F5B29300BA6B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					820E0FF728F5B29300BA6B8F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					820E100D28F5B29B00BA6B8F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 820E0FF728F5B29300BA6B8F;
+					};
+					820E101728F5B29B00BA6B8F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 820E0FF728F5B29300BA6B8F;
+					};
+				};
+			};
+			buildConfigurationList = 820E0FF328F5B29300BA6B8F /* Build configuration list for PBXProject "Pocket Pantry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820E0FEF28F5B29300BA6B8F;
+			productRefGroup = 820E0FF928F5B29300BA6B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820E0FF728F5B29300BA6B8F /* Pocket Pantry */,
+				820E100D28F5B29B00BA6B8F /* Pocket PantryTests */,
+				820E101728F5B29B00BA6B8F /* Pocket PantryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820E0FF628F5B29300BA6B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820E100828F5B29B00BA6B8F /* LaunchScreen.storyboard in Resources */,
+				820E100528F5B29A00BA6B8F /* Assets.xcassets in Resources */,
+				820E100328F5B29300BA6B8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E100C28F5B29B00BA6B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E101628F5B29B00BA6B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820E0FF428F5B29300BA6B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820E100028F5B29300BA6B8F /* ViewController.swift in Sources */,
+				820E0FFC28F5B29300BA6B8F /* AppDelegate.swift in Sources */,
+				820E0FFE28F5B29300BA6B8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E100A28F5B29B00BA6B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820E101328F5B29B00BA6B8F /* Pocket_PantryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E101428F5B29B00BA6B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820E101F28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift in Sources */,
+				820E101D28F5B29B00BA6B8F /* Pocket_PantryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820E101028F5B29B00BA6B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820E0FF728F5B29300BA6B8F /* Pocket Pantry */;
+			targetProxy = 820E100F28F5B29B00BA6B8F /* PBXContainerItemProxy */;
+		};
+		820E101A28F5B29B00BA6B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820E0FF728F5B29300BA6B8F /* Pocket Pantry */;
+			targetProxy = 820E101928F5B29B00BA6B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820E100128F5B29300BA6B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820E100228F5B29300BA6B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820E100628F5B29B00BA6B8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820E100728F5B29B00BA6B8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820E102028F5B29B00BA6B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		820E102128F5B29B00BA6B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820E102328F5B29B00BA6B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket Pantry/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-Pantry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820E102428F5B29B00BA6B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket Pantry/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-Pantry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		820E102628F5B29B00BA6B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-PantryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Pantry.app/Pocket Pantry";
+			};
+			name = Debug;
+		};
+		820E102728F5B29B00BA6B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-PantryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Pantry.app/Pocket Pantry";
+			};
+			name = Release;
+		};
+		820E102928F5B29B00BA6B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-PantryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Pantry";
+			};
+			name = Debug;
+		};
+		820E102A28F5B29B00BA6B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbrown20.Pocket-PantryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Pantry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820E0FF328F5B29300BA6B8F /* Build configuration list for PBXProject "Pocket Pantry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820E102028F5B29B00BA6B8F /* Debug */,
+				820E102128F5B29B00BA6B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820E102228F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket Pantry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820E102328F5B29B00BA6B8F /* Debug */,
+				820E102428F5B29B00BA6B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820E102528F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket PantryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820E102628F5B29B00BA6B8F /* Debug */,
+				820E102728F5B29B00BA6B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820E102828F5B29B00BA6B8F /* Build configuration list for PBXNativeTarget "Pocket PantryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820E102928F5B29B00BA6B8F /* Debug */,
+				820E102A28F5B29B00BA6B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820E0FF028F5B29300BA6B8F /* Project object */;
+}
