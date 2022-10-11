@@ -16,6 +16,9 @@
 		820E101328F5B29B00BA6B8F /* Pocket_PantryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101228F5B29B00BA6B8F /* Pocket_PantryTests.swift */; };
 		820E101D28F5B29B00BA6B8F /* Pocket_PantryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */; };
 		820E101F28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */; };
+		E8A4458B28F5BDB7005130E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A4458A28F5BDB7005130E0 /* GoogleService-Info.plist */; };
+		E8E2713128F5BF6500BD5505 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E8E2713028F5BF6500BD5505 /* FirebaseAnalytics */; };
+		E8E2713328F5BF6500BD5505 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E8E2713228F5BF6500BD5505 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		820E101828F5B29B00BA6B8F /* Pocket PantryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket PantryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITests.swift; sourceTree = "<group>"; };
 		820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8A4458A28F5BDB7005130E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E2713328F5BF6500BD5505 /* FirebaseDatabase in Frameworks */,
+				E8E2713128F5BF6500BD5505 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +112,7 @@
 				820E100428F5B29A00BA6B8F /* Assets.xcassets */,
 				820E100628F5B29B00BA6B8F /* LaunchScreen.storyboard */,
 				820E100928F5B29B00BA6B8F /* Info.plist */,
+				E8A4458A28F5BDB7005130E0 /* GoogleService-Info.plist */,
 			);
 			path = "Pocket Pantry";
 			sourceTree = "<group>";
@@ -143,6 +150,10 @@
 			dependencies = (
 			);
 			name = "Pocket Pantry";
+			packageProductDependencies = (
+				E8E2713028F5BF6500BD5505 /* FirebaseAnalytics */,
+				E8E2713228F5BF6500BD5505 /* FirebaseDatabase */,
+			);
 			productName = "Pocket Pantry";
 			productReference = 820E0FF828F5B29300BA6B8F /* Pocket Pantry.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 820E0FEF28F5B29300BA6B8F;
+			packageReferences = (
+				E8E2712F28F5BF6500BD5505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 820E0FF928F5B29300BA6B8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				820E100828F5B29B00BA6B8F /* LaunchScreen.storyboard in Resources */,
+				E8A4458B28F5BDB7005130E0 /* GoogleService-Info.plist in Resources */,
 				820E100528F5B29A00BA6B8F /* Assets.xcassets in Resources */,
 				820E100328F5B29300BA6B8F /* Main.storyboard in Resources */,
 			);
@@ -596,6 +611,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8E2712F28F5BF6500BD5505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8E2713028F5BF6500BD5505 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8E2712F28F5BF6500BD5505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E8E2713228F5BF6500BD5505 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8E2712F28F5BF6500BD5505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 820E0FF028F5B29300BA6B8F /* Project object */;
 }
