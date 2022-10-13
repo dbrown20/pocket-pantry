@@ -1,24 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pocket_Pantry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXC-5Z-hG9">
+                                <rect key="frame" x="143" y="432.5" width="128.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="View You Pantry"/>
+                                <connections>
+                                    <segue destination="tbQ-lh-fbP" kind="show" id="eaI-it-q9O"/>
+                                </connections>
+                            </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1xt-s8-qY2">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="cPy-AC-hbb"/>
+                                    <tabBarItem systemItem="more" id="B82-az-FWi"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.64582556486129761" green="0.92200523614883423" blue="0.65473443269729614" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OXC-5Z-hG9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0MV-Z5-e31"/>
+                            <constraint firstItem="OXC-5Z-hG9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="URn-HD-Xtj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="64.955357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EDM-HM-Fwr">
+            <objects>
+                <viewController id="tbQ-lh-fbP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XhX-8n-hjc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fPM-iQ-wSf">
+                                <rect key="frame" x="20" y="151" width="374" height="354"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="354" id="vXw-lk-kWi"/>
+                                </constraints>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vc-TC-WBp">
+                                <rect key="frame" x="127" y="542" width="152" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Item to Pantry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLe-hR-UXA">
+                                <rect key="frame" x="136" y="513" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoI-Hf-GFp">
+                                <rect key="frame" x="166" y="714" width="82" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add Item"/>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="h1W-Ij-8Jp">
+                                <rect key="frame" x="47" y="600" width="320" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="W6y-nP-6a8"/>
+                                </constraints>
+                            </datePicker>
+                            <navigationBar contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="gE5-xN-oRg">
+                                <rect key="frame" x="0.0" y="60" width="414" height="0.0"/>
+                                <items>
+                                    <navigationItem title="Your Pantry" id="BQo-oQ-17Z"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3MO-7r-zQH"/>
+                        <color key="backgroundColor" red="0.14124572093662768" green="1" blue="0.26132915500269238" alpha="0.25245365480176446" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fPM-iQ-wSf" firstAttribute="leading" secondItem="XhX-8n-hjc" secondAttribute="leadingMargin" id="5Va-xb-1di"/>
+                            <constraint firstItem="7vc-TC-WBp" firstAttribute="top" secondItem="fLe-hR-UXA" secondAttribute="bottom" constant="8" id="8T6-Jh-GN5"/>
+                            <constraint firstItem="fLe-hR-UXA" firstAttribute="centerX" secondItem="XhX-8n-hjc" secondAttribute="centerX" id="Are-JX-yYR"/>
+                            <constraint firstItem="fPM-iQ-wSf" firstAttribute="centerX" secondItem="gE5-xN-oRg" secondAttribute="centerX" id="JkQ-0K-wVb"/>
+                            <constraint firstItem="h1W-Ij-8Jp" firstAttribute="centerX" secondItem="XhX-8n-hjc" secondAttribute="centerX" id="Lha-0Z-BmP"/>
+                            <constraint firstAttribute="bottom" secondItem="fLe-hR-UXA" secondAttribute="bottom" constant="308" id="OHu-Lz-6HD"/>
+                            <constraint firstItem="gE5-xN-oRg" firstAttribute="top" secondItem="3MO-7r-zQH" secondAttribute="top" constant="16" id="RJm-Mu-Dec"/>
+                            <constraint firstItem="7vc-TC-WBp" firstAttribute="centerX" secondItem="XhX-8n-hjc" secondAttribute="centerX" constant="-4" id="Tob-ao-NdQ"/>
+                            <constraint firstItem="fPM-iQ-wSf" firstAttribute="centerX" secondItem="fLe-hR-UXA" secondAttribute="centerX" id="YbU-DQ-8fD"/>
+                            <constraint firstItem="gE5-xN-oRg" firstAttribute="leading" secondItem="3MO-7r-zQH" secondAttribute="leading" id="YnP-fc-aCA"/>
+                            <constraint firstItem="fLe-hR-UXA" firstAttribute="top" secondItem="fPM-iQ-wSf" secondAttribute="bottom" constant="8" id="cng-xx-tqr"/>
+                            <constraint firstItem="yoI-Hf-GFp" firstAttribute="top" secondItem="h1W-Ij-8Jp" secondAttribute="bottom" constant="19" id="fG7-5s-bcU"/>
+                            <constraint firstItem="fPM-iQ-wSf" firstAttribute="top" secondItem="gE5-xN-oRg" secondAttribute="bottom" constant="91" id="l07-xV-zhD"/>
+                            <constraint firstItem="yoI-Hf-GFp" firstAttribute="centerX" secondItem="XhX-8n-hjc" secondAttribute="centerX" id="r1T-mK-rH1"/>
+                            <constraint firstItem="fPM-iQ-wSf" firstAttribute="top" secondItem="gE5-xN-oRg" secondAttribute="bottom" constant="91" id="rLU-Zi-sxB"/>
+                            <constraint firstItem="h1W-Ij-8Jp" firstAttribute="top" secondItem="7vc-TC-WBp" secondAttribute="bottom" constant="24" id="x34-ks-X3O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tvb-73-JJv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWb-Wc-JrV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918.84057971014499" y="81.696428571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
