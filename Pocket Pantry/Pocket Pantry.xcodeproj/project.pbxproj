@@ -16,6 +16,7 @@
 		820E101328F5B29B00BA6B8F /* Pocket_PantryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101228F5B29B00BA6B8F /* Pocket_PantryTests.swift */; };
 		820E101D28F5B29B00BA6B8F /* Pocket_PantryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */; };
 		820E101F28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */; };
+		E807C57E28FF62990018472C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E807C57D28FF62990018472C /* GoogleService-Info.plist */; };
 		E8E2713128F5BF6500BD5505 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E8E2713028F5BF6500BD5505 /* FirebaseAnalytics */; };
 		E8E2713328F5BF6500BD5505 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E8E2713228F5BF6500BD5505 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		820E101828F5B29B00BA6B8F /* Pocket PantryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket PantryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		820E101C28F5B29B00BA6B8F /* Pocket_PantryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITests.swift; sourceTree = "<group>"; };
 		820E101E28F5B29B00BA6B8F /* Pocket_PantryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PantryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E807C57D28FF62990018472C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				820E100428F5B29A00BA6B8F /* Assets.xcassets */,
 				820E100628F5B29B00BA6B8F /* LaunchScreen.storyboard */,
 				820E100928F5B29B00BA6B8F /* Info.plist */,
+				E807C57D28FF62990018472C /* GoogleService-Info.plist */,
 			);
 			path = "Pocket Pantry";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				820E100828F5B29B00BA6B8F /* LaunchScreen.storyboard in Resources */,
+				E807C57E28FF62990018472C /* GoogleService-Info.plist in Resources */,
 				820E100528F5B29A00BA6B8F /* Assets.xcassets in Resources */,
 				820E100328F5B29300BA6B8F /* Main.storyboard in Resources */,
 			);

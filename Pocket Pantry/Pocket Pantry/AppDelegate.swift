@@ -9,6 +9,11 @@ import UIKit
 import FirebaseCore
 
 @main
+struct PocketPantry: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+}
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -34,4 +39,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
 
